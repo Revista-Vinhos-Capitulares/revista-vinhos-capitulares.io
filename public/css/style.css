@@ -1,0 +1,73 @@
+/* Adicione estas regras para alterar a cor dos botões */
+
+body {
+    background-color: rgb(27, 18, 7);
+}
+/* Botão Modo Leitura */
+.btn-dark {
+    background-color: #58231B; /* Azul escuro, você pode ajustar a cor conforme necessário */
+    color: #fff; /* Cor do texto */
+    transition: background-color 0.3s; /* Adiciona uma transição suave */
+}
+
+.btn-dark:hover {
+    background-color: #414549; /* Cor diferente no hover, ajuste conforme necessário */
+}
+
+/* Botão Download */
+.btn-dark.btn-sm {
+    background-color: #58231B; /* Verde escuro, você pode ajustar a cor conforme necessário */
+    color: #fff; /* Cor do texto */
+    transition: background-color 0.3s; /* Adiciona uma transição suave */
+    padding: 0.6rem;
+    margin-top: 1rem;
+   
+}
+
+.btn-dark.btn-sm:hover {
+    background-color: #414549; /* Cor diferente no hover, ajuste conforme necessário */
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 767px) {
+    header img {
+        max-width: 100px;
+    }
+}
+
+/* ... (outros estilos) */
+
+/* Estilos adicionados para ajustar a altura do carrossel */
+#carouselExample {
+  max-width: 600px; /* Defina a largura máxima desejada para o carrossel */
+  margin: auto; /* Centralize o carrossel na página */
+}
+
+.carousel-inner {
+  max-height: 850px; /* Ajuste a altura máxima desejada para as imagens */
+}
+
+.carousel-item img {
+  width: 100%; /* Assegure-se de que as imagens ocupem 100% da largura do contêiner */
+  height: auto; /* Mantenha a proporção original da imagem */
+}
+
+/* Adicione isso ao seu arquivo de estilo CSS */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) grayscale(100%); /* Isso transforma as flechas para cinza */
+}
+
+/* Adicione isso se quiser ajustar a cor do contorno das flechas */
+.carousel-control-prev,
+.carousel-control-next {
+    color: gray; /* Cor cinza para o contorno das flechas */
+}
+
